@@ -7,22 +7,33 @@
     <title>Royal Giant High School</title>
   </head>
   <style>
+    .navbar{
+      display:flex;
+    }
     .nav-links{
       display:flex;
       list-style: none;
       gap: 20px;
-
     }
+    a{
+      color:#f0b800;
+      text-decoration: none;
+      font-size: 20px;
+      font-style: verdana;
+    }
+    
+   
+
   </style>
   <body>
-    <header>
-      <h1>ROYAL GIANT HIGH SCHOOL</h1>
+    <header style="background-color:#0d2260; color:#f0b800">
+      
       <img
         src="images/royal-giant-high-school-mityana-logo-png_seeklogo-556113.png"
         alt="Royal Giant High School Logo"
         height="200"
       />
-      <nav>
+      <nav class="navbar">
         <ul class="nav-links">
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
@@ -32,6 +43,8 @@
         </ul>
       </nav>
     </header>
+
+    <h1>ROYAL GIANT HIGH SCHOOL</h1>
     <!-- Home: This section should provide an overview of the school, including its history, mission, and values. It should also include a brief description of the school's academic programs and extracurricular activities. -->
     <main>
       <article class="introduction" role="introduction">
@@ -178,7 +191,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer style="background-color:#0d2260; color:#f0b800">
       <p>&copy; 2026 Royal Giant High School. All rights reserved.</p>
     </footer>
   </body>
